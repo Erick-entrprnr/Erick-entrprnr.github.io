@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<html
+<html lang="en">
 <head>
-    <body>
-        <h1 style="text-align: center;">Oye we</h1> 
-        
-        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <div class="imagen">
+        <font color="#FFFFFF">
+            <div class="texto-borde">    
+    <h1 class="texto" style="text-align: center;">Oye we</h1>  
         <div style="text-align: center;">
-            <span> <a href='https://emojitool.com/cat'>🐈</a>
+            <span> <a >🐈</a>
             </span>
             <form>
-            <input type="text" class= "oye" id= "oye" 
+            </br>
+            <input  class="texto-borde" type="text" class= "oye" id= "oye" 
             </div>
             <div style="text-align: center;">
             </br>
-            <button type="submit"  class="btn btn-primary" id="btn" >Oye</button>
+            <button type="submit"  class="texto-borde" class="btn btn-primary" id="btn" >Oye</button>
         </form>
         </div>
-    
-
+    </br>
+        <h2 class="texto" class="texto-borde" style="text-align: bottom;"> Autor Erick</br> Créditos Cristian y Gabalop17</h2>
+    </div> 
+</font>
+</div> 
 <script>
     function mostrarMensaje(mensaje){
     var message= document.getElementById("oye").value;
@@ -29,6 +40,5 @@
 }
 document.getElementById("btn").addEventListener("click", mostrarMensaje);
 </script>
-
 </body>
-</head>
+</html>
